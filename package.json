@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate invitation calendar link. Supported services are Google Calendar, Microsoft Outlook, and Yahoo! Calendar (Apple Calendar and download .ics are done through the iCal format).",
   "main": "dist/index.js",
-  "repository": "https://github.com/vborodulin/add-to-calendar.git",
+  "repository": "https://github.com/vborodulin/add-event-to-calendar.git",
   "author": "vborodulin <borodulin.dev@gmail.com>",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
