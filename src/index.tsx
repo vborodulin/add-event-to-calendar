@@ -1,7 +1,3 @@
-import {hi} from './test';
-
-hi();
-
 export type TCalendarEvent = {
   name: string;
   details: string | null;
