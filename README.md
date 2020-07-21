@@ -1,4 +1,4 @@
-# add-to-calendar
+# add-event-to-calendar
 
 Generate invitation calendar link.
 
@@ -13,7 +13,35 @@ Generate invitation calendar link.
 1. Isomorphic library
 2. Zero dependencies
 3. Typescript declararactions
+
+## Install
+
+npm:
+```
+npm install add-event-to-calendar
+```
+
+yarn:
+```
+yarn add add-event-to-calendar
+```
  
+## Usage example
+
+```typescript
+import makeUrl, { TCalendarEvent } from 'add-event-to-calendar';
+
+const getCalendarEvent = (lesson: TPrivateLesson): TCalendarEvent => ({
+   name: `Event name`,
+   location: 'Event location',
+   details: `Event details`,
+   startsAt: 'Event start at',
+   endsAt: 'Event end at,
+ });
+ 
+ const eventUrls = makeUrls(event);
+```
+
 ## License
  
 The MIT License (MIT)
