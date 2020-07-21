@@ -1,19 +1,25 @@
 {
   "name": "add-event-to-calendar",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Generate invitation calendar link. Supported services are Google Calendar, Microsoft Outlook, and Yahoo! Calendar (Apple Calendar and download .ics are done through the iCal format).",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/vborodulin/add-event-to-calendar.git",
   "author": "vborodulin <borodulin.dev@gmail.com>",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "yarn type-check -- --watch",
-    "build:types": "tsc --emitDeclarationOnly",
+    "build:types": "tsc --emitDeclarationOnly --outFile dist/index.d.ts",
     "build:js": "parcel build src/index.tsx",
     "build": "yarn build:types && yarn build:js",
     "prebuild": "rm -rf dist"
   },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/index.js.map"
+  ],
   "keywords": [
     "calendar",
     "event",
