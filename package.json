@@ -1,6 +1,6 @@
 {
   "name": "add-event-to-calendar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate invitation calendar link. Supported services are Google Calendar, Microsoft Outlook, and Yahoo! Calendar (Apple Calendar and download .ics are done through the iCal format).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
