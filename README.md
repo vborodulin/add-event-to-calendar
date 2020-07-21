@@ -1,4 +1,4 @@
-# add-to-calendar
+# add-event-to-calendar
 
 Generate invitation calendar link.
 
